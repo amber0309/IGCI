@@ -1,7 +1,6 @@
 # IGCI
 
-Implementation of paper
-
+Implementation of Information Geometric Causal Inference proposed in the following paper
 
 P. Daniušis, D. Janzing, J. Mooij, J. Zscheischler, B. Steudel, K. Zhang, B. Schölkopf:  Inferring deterministic causal relations. Proceedings of the 26th Annual Conference on Uncertainty in Artificial Intelligence (UAI-2010).
 
