@@ -42,7 +42,7 @@ Output:Output of function **igci()**
 
 | Argument  | Description  |
 |---|---|
-|f  |f < 0: x causes y;<br/> f > 0: y causes x;<br/> None - incorrect inputs|
+|f  |f < 0 - x causes y;<br/> f > 0 - y causes x;<br/> None - incorrect inputs|
 
 
 ## Authors
