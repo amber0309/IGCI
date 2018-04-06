@@ -27,6 +27,8 @@ Apply IGCI on your data
 f = igci(x, y, refMeasure=1, estimator=2)
 ```
 
+### Description
+
 Input of function **igci()**
 
 | Argument  | Description  |
