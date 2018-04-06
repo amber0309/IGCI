@@ -35,14 +35,14 @@ Input of function **igci()**
 |---|---|
 |x | Obeservations of the first variable. L by 1 numpy array.|
 |y | Obeservations of the second variable. L by 1 numpy array.|
-|refMeasure | 1 - uniform reference measure; 2 - Gaussian reference measure |
-|estimator | 1 - entropy; 2 - integral approximation |
+|refMeasure | 1 - uniform reference measure;<br/> 2 - Gaussian reference measure |
+|estimator | 1 - entropy;<br/> 2 - integral approximation |
 
 Output:Output of function **igci()**
 
 | Argument  | Description  |
 |---|---|
-|f  |* f < 0: x causes y; * f > 0: y causes x; * None - incorrect inputs|
+|f  |f < 0: x causes y;<br/> f > 0: y causes x;<br/> None - incorrect inputs|
 
 
 ## Authors
