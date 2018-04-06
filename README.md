@@ -27,8 +27,6 @@ Apply IGCI on your data
 f = igci(x, y, refMeasure=1, estimator=2)
 ```
 
-### Notes
-
 Input of function **igci()**
 
 | Argument  | Description  |
@@ -38,12 +36,11 @@ Input of function **igci()**
 |refMeasure | 1 - uniform reference measure;<br/> 2 - Gaussian reference measure |
 |estimator | 1 - entropy;<br/> 2 - integral approximation |
 
-Output:Output of function **igci()**
+Output of function **igci()**
 
 | Argument  | Description  |
 |---|---|
 |f  |f < 0 - x causes y;<br/> f > 0 - y causes x;<br/> None - incorrect inputs|
-
 
 ## Authors
 
