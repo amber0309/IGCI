@@ -40,23 +40,23 @@ def igci(x, y, refMeasure=1, estimator=2):
 	# ----- input data check -----
 	if dimx != 1:
 		print 'Dimensionality of x must be 1'
-		return -1
+		return None
 
 	if Lx < 20:
 		print 'Not enough observations in x (must be > 20)'
-		return -1
+		return None
 
 	if dimy != 1:
 		print 'Dimensionality of x must be 1'
-		return -1
+		return None
 
 	if Ly < 20:
 		print 'Not enough observations in y (must be > 20)'
-		return -1
+		return None
 
 	if Lx != Ly:
 		print 'Lenghts of x and y must be equal'
-		return -1
+		return None
 	# ----- -----
 
 	if refMeasure == 1:
@@ -120,4 +120,4 @@ def igci(x, y, refMeasure=1, estimator=2):
 
 	else:
 		print 'Unknown estimator'
-		return -1
+		return None
