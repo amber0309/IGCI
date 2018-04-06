@@ -67,6 +67,7 @@ def igci(x, y, refMeasure=1, estimator=2):
 		yi = (yi - np.mean(yi)) / np.std(yi)
 	else:
 		print 'Warning: unknown reference measure - no scaling applied'
+		return None
 
 	if estimator == 1:
 		x1 = np.sort(xi, axis = 0)
