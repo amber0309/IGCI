@@ -46,7 +46,7 @@ Output of function **igci()**
 
 ## Authors
 
-* **Shoubo Hu** - shoubo.sub@gmail.com
+* **Shoubo Hu** - shoubo DOT sub AT gmail DOT com
 
 See also the list of [contributors](https://github.com/amber0309/IGCI/contributors) who participated in this project.
 
