@@ -24,6 +24,10 @@ estimator 	estimator to use:
 Outputs: 
 f < 0:		the method prefers the causal direction x -> y
 f > 0:		the method prefers the causal direction y -> x
+
+Usage
+f = igci(x, y)
+
 """
 
 from __future__ import division
