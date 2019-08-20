@@ -51,7 +51,7 @@ def igci(x, y, refMeasure=1, estimator=2):
 		return None
 
 	if dimy != 1:
-		print 'Dimensionality of x must be 1'
+		print 'Dimensionality of y must be 1'
 		return None
 
 	if Ly < 20:
